@@ -38,30 +38,6 @@ form.addEventListener('submit', e => {
 //when user presses submit, score is calculated, then displayed. 
 
 
-//window Object (global Object)
-// console.log('hello');
-// window.console.log('hello');
-
-// console.log(document.querySelector('form'));
-// console.log(window.document.querySelector('form'));
-
-//alert('hello');
-//window.alert('hello');
-//window presence is inferred.
-
-//setTimeout(()=> {
-//   alert('hello')
-// }, 3000); //when page loads it waits 3 seconds (3000 milliseconds) to show alert
-
-// let i = 0;
-// const timer = setInterval(() => {
-//   console.log('hello');
-//   i++
-//   if (i === 5){
-//    clearInterval(timer);
-//  }
-// }, 1000);
-//continually logs event every set amount of milliseconds 
 
 
 
