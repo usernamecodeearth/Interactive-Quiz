@@ -7,16 +7,33 @@
   <title>Animal Group Quiz</title>
 </head>
 <body>
+  <style>
+    
+    .text{
+      color: black;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-decoration: underline;
+    }
+
+  </style>
   
 <!-- top section-->
   <div class="intro py-3 bg-white text-center">
     <div class="container">
-      <h2 class="text-primary display-4 my-4">Animal Group Quiz</h2>
+      <h2 class="text display-4 my-4">Animal Quiz</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>Congrats! You scored <span class="text-primary display-4 p-3">0%</span>!</p>
     </div>
   </div>
 
   <!-- Quiz Section-->
-  <div class="quiz py-4 bg-primary">
+  <div class="quiz py-4 bg-primary bg-opacity-50">
     <div class="container">
       <h2 class="my-5 text-white">Can you guess these animal group names?</h2>
 
@@ -24,11 +41,11 @@
         <div class="my-5">
           <p class="lead font-weight-normal">1. What's the collective 
             noun for a group of pandas?</p>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q1" value="A" checked>
               <label class="form-check-label">A waddle</label>
             </div>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q1" value="B">
               <label class="form-check-label">An embarrassment</label>
             </div>
@@ -36,11 +53,11 @@
         <div class="my-5">
           <p class="lead font-weight-normal">2. What's the the name for a group
             of alligators?</p>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q2" value="A" checked>
               <label class="form-check-label">A congregation</label>
             </div>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q2" value="B">
               <label class="form-check-label">A gang</label>
             </div>
@@ -48,11 +65,11 @@
         <div class="my-5">
           <p class="lead font-weight-normal">3. What're a bunch 
             of caterpillars called?</p>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q3" value="A" checked>
               <label class="form-check-label">An army</label>
             </div>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q3" value="B">
               <label class="form-check-label">A clutter</label>
             </div>
@@ -60,11 +77,11 @@
         <div class="my-5">
           <p class="lead font-weight-normal">4. Which word refers to a group 
             of cheetahs?</p>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q4" value="A" checked>
               <label class="form-check-label">An ambush</label>
             </div>
-            <div class="form-check my-2 text-white-50">
+            <div class="form-check my-2 text-white">
               <input type="radio" name="q4" value="B">
               <label class="form-check-label">A coalition</label>
             </div>
